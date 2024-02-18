@@ -1,7 +1,23 @@
 /* To learn more about this file see: https://angular.io/config/tsconfig. */
+/*
+Original:
+  "paths": {
+    "@devtien/ngx-components": [
+      "./dist/devtien/ngx-components"
+    ],
+  }
+*/
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "@devtien/ngx-components/*": [
+        "./projects/devtien/ngx-components/*",
+      ],
+      "@devtien/ngx-components": [
+        "./projects/devtien/ngx-components",
+      ]
+    },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,

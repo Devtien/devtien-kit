@@ -1,6 +1,19 @@
 {
   "name": "devtien-kit",
   "version": "0.0.0",
+  "description": "DevTien Development kit for Angular",
+  "homepage": "https://github.com/Devtien/devtien-kit",
+  "bugs": "https://github.com/Devtien/devtien-kit/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Devtien/devtien-kit.git"
+  },
+  "keywords": [
+    "angular",
+    "devtien",
+    "components"
+  ],
+  "license": "MIT",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,7 +22,6 @@
     "test": "ng test",
     "lint": "ng lint"
   },
-  "private": true,
   "prettier": "@devtien/prettier-config",
   "dependencies": {
     "@angular/animations": "^17.2.0",

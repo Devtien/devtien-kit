@@ -1,6 +1,15 @@
 {
   "name": "@devtien/ngx-components",
-  "version": "0.0.1",
+  "version": "0.0.0-PLACEHOLDER",
+  "description": "DevTien Development kit for Angular",
+  "homepage": "https://github.com/Devtien/devtien-kit#readme",
+  "bugs": "https://github.com/Devtien/devtien-kit/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Devtien/devtien-kit.git"
+  },
+  "keywords": ["angular", "devtien", "components"],
+  "license": "MIT",
   "peerDependencies": {
     "@angular/common": "^17.2.0",
     "@angular/core": "^17.2.0"

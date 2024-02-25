@@ -3,5 +3,8 @@
   "dest": "../../../dist/devtien/ngx-components",
   "lib": {
     "entryFile": "public-api.ts"
-  }
+  },
+  "assets": [
+    { "input": ".", "glob": "**/*.scss", "output": "." }
+  ]
 }

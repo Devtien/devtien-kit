@@ -22,7 +22,8 @@
     "watch": "ng build @devtien/ngx-components --watch --configuration development",
     "test": "jest",
     "lint": "ng lint",
-    "publish:ngx-components": "cd dist/devtien/ngx-components && npm version patch && npm pack && npm publish dist/devtien/ngx-components/*.tgz --dry"
+    "pack": "dist/devtien/ngx-components && npm pack",
+    "publish:ngx-components": "npm run build && cd dist/devtien/ngx-components && npm version patch && npm pack && npm publish dist/devtien/ngx-components/*.tgz --dry"
   },
   "prettier": "@devtien/prettier-config",
   "dependencies": {

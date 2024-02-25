@@ -9,7 +9,11 @@
     "url": "git+https://github.com/Devtien/devtien-kit.git"
   },
   "private": false,
-  "keywords": ["angular", "devtien", "components"],
+  "keywords": [
+    "angular",
+    "devtien",
+    "components"
+  ],
   "license": "MIT",
   "publishConfig": {
     "access": "public",

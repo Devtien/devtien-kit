@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { TableComponent } from '@devtien/ngx-components/table';
+// import { TableComponent } from '@devtien/ngx-components/table';
 
 @Component({
   selector: 'tien-test',
@@ -9,23 +9,23 @@ import { TableComponent } from '@devtien/ngx-components/table';
   styleUrl: './test.component.css'
 })
 export class TestComponent {
-  db = [
+  /*private db = [
     {
       id: 132,
       options: {
         component: TableComponent.name,
       }
     }
-  ];
+  ];*/
   constructor() {
 
   }
 
-  getDBHTML() {
+  /*getDBHTML() {
     return `
 <div data-uhce='1'>
 
 </div>
     `;
-  }
+  }*/
 }

@@ -24,7 +24,7 @@
     "lint": "ng lint",
     "patch": "cd projects/devtien/ngx-components && npm version patch",
     "publish": "npm publish dist/devtien/ngx-components",
-    "publish:ngx-components": "npm lint && npm test && npm patch && npm build && npm publish"
+    "publish:ngx-components": "npm run lint && npm run test && npm run patch && npm run build && npm run publish"
   },
   "prettier": "@devtien/prettier-config",
   "dependencies": {

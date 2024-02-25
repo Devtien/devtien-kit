@@ -8,6 +8,7 @@
     "type": "git",
     "url": "git+https://github.com/Devtien/devtien-kit.git"
   },
+  "private": false,
   "keywords": [
     "angular",
     "devtien",

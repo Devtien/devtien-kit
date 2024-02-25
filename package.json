@@ -8,6 +8,7 @@
     "type": "git",
     "url": "git+https://github.com/Devtien/devtien-kit.git"
   },
+  "private": true,
   "keywords": [
     "angular",
     "devtien",
@@ -21,9 +22,7 @@
     "watch": "ng build @devtien/ngx-components --watch --configuration development",
     "test": "jest",
     "lint": "ng lint",
-    "publish:patch": "ng lint & ng test & ng build @devtien/ngx-components & npm version patch & npm publish",
-    "publish:minor": "ng lint & ng test & ng build @devtien/ngx-components & npm version minor & npm publish",
-    "publish:major": "ng lint & ng test & ng build @devtien/ngx-components & npm version major & npm publish"
+    "publish:ngx-components": "cd dist/devtien/ngx-components & npm version patch & npm pack & npm publish dist/devtien/ngx-components/*.tgz --dry"
   },
   "prettier": "@devtien/prettier-config",
   "dependencies": {
@@ -52,6 +51,7 @@
     "@types/jest": "^29.5.12",
     "@typescript-eslint/eslint-plugin": "6.19.0",
     "@typescript-eslint/parser": "6.19.0",
+    "@devtien/ngx-components": "0.0.2",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "jasmine-core": "~5.1.0",
